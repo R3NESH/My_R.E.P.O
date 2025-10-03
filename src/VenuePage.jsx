@@ -106,7 +106,7 @@ const VenuePage = () => {
       default: // 'main' view
         return (
           <div className="venue-card">
-            <h1 className="venue-title">Our Wedding Venue</h1>
+            <h1 className="venue-title">Wedding Venue</h1>
             <p className="venue-description">
               The wedding ceremony will be held at Sai Gardens, Mallapur, Hyderabad. We have arranged all necessary amenities for you.
             </p>
