@@ -16,7 +16,7 @@ const InvitationPage = ({ setPage }) => {
           from={{ opacity: 0, y: 80, scale: 0.8 }}
           to={{ opacity: 1, y: 0, scale: 1 }}
         >
-          You're Cordially Invited to Megh & Anjan's Wedding !
+          You are Cordially Invited to Megh & Anjan's Wedding !
         </SplitText>
         
         <div className="venue-options">
