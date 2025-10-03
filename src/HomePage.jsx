@@ -43,6 +43,9 @@ const HomePage = ({ setPage }) => (
   <header className="hero">
     <div className="hero-content">
       <div className="top-timer-section">
+        {/* New text added above the countdown */}
+        <h3 className="muhartam-info">Muhartam on October 12th at 10:57 AM</h3>
+        <h4 className="countdown-label">Countdown to Muhartam</h4>
         <CountdownTimer />
       </div>
       <div className="about-section">
