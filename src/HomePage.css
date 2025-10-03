@@ -1,0 +1,132 @@
+/* --- Styles for HomePage Component --- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.hero {
+  font-family: 'Lato', sans-serif;
+  background: transparent; /* Allows background from App.jsx to show */
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  padding: 0;
+  color: #333; /* Default text color for the page */
+  text-align: center;
+}
+
+.hero-content {
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+  padding-bottom: 2vh;
+}
+
+.top-timer-section {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5); /* Light background for readability */
+  padding-top: 45px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 0;
+  backdrop-filter: blur(5px);
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+  gap: 6vw;
+  width: 100%;
+}
+
+.time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Restoring original font sizes */
+.time-box span {
+  font-size: 8rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  line-height: 1;
+  color: #444;
+}
+
+.time-box small {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 1.2rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.about-section {
+  width: 75vw;
+  max-width: 900px;
+  margin: 4vh auto 0 auto;
+  background: rgba(255, 255, 255, 0.6); /* Light background */
+  border-radius: 2rem;
+  padding: 3.5rem 3vw 2.5rem 3vw;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.12);
+  color: #333; /* Dark text color */
+  font-size: 2rem;
+  line-height: 2.7rem;
+  min-height: 16vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title {
+  margin-top: 0;
+  margin-bottom: 1.6rem;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: 2px;
+}
+
+.nav-buttons {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  display: flex;
+  gap: 3vw;
+  justify-content: center;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: 3px solid #ff8c00; /* Orange border to match marigolds */
+  color: #ff8c00; /* Orange text */
+  padding: 3rem 4.2rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  background: #ff8c00; /* Orange background on hover */
+  color: #fff; /* White text on hover */
+}
+
+.married-text {
+    font-size: 5rem;
+    color: #333;
+}
+

@@ -1,0 +1,14 @@
+.toranam-container {
+    position: fixed; /* Position it relative to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0; /* Places it above the background (-1) and below the main content (1) */
+    pointer-events: none; /* Allows mouse clicks to pass through */
+}
+
+.toranam-container img {
+    width: 100%;
+    height: auto;
+    display: block; /* Removes bottom space under the image */
+}

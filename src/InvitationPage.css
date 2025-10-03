@@ -1,0 +1,18 @@
+.invitation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  text-align: center;
+}
+
+.invitation-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 8rem;
+  font-weight: 800;
+  color: #333;
+  line-height: 1.1;
+}
+.split-char {
+  display: inline-block;
+}
