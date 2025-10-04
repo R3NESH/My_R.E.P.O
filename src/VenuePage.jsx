@@ -46,7 +46,6 @@ const VenuePage = () => {
               <h3>Biryani Darbar</h3>
               <ul>
                 <li>Gongoora Dum Pulov</li>
-                <li>Dun Aloo</li>
                 <li>Pansakaya (Jackfruit) Biryani</li>
                 <li>Veg Dum Biryani</li>
               </ul>
@@ -55,6 +54,7 @@ const VenuePage = () => {
             <div className="menu-section">
               <h3>Breads & Curries (Sabzi-Di-Bandi)</h3>
               <ul>
+                <li>Dum Aloo</li>
                 <li>Pulkha (Live Station)</li>
                 <li>Palak Poori</li>
                 <li>Paneer Butter Masala</li>
